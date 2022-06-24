@@ -16,9 +16,7 @@ public class _2_StringReverse {
 	public static void reverse(String str) {
 		String newString = "";
 		for (int i = str.length() - 1; i >= 0; i--) {
-			String ch1 = "" + str.charAt(i);
-
-			newString = newString + ch1;
+			newString += str.charAt(i);
 		}
 		System.out.println(newString);
 	}
