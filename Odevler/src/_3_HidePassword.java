@@ -18,9 +18,9 @@ public class _3_HidePassword {
 		for (int i = 0; i < str.length(); i++) {
 
 			if (i == 0) {
-				newString = str.charAt(i);
+				newString += str.charAt(i);
 			} else if (str.length() - 1 == i) {
-				newString = str.charAt(i);
+				newString += str.charAt(i);
 			} else {
 				newString ="*";
 			}
